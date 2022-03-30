@@ -1,0 +1,4 @@
+https://itnext.io/why-and-how-to-run-your-development-database-with-docker-2e0eab13b733
+
+
+docker run --name mongodb -v mongodata:/data/db -d -p 27017:27017 mongo
